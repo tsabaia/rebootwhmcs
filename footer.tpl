@@ -5,7 +5,7 @@
         
         <hr />
         
-        <div class="pull-left text-muted">{$LANG.copyright} &copy; {$date_year} {$companyname} | Criador por <a href="http://www.bootwhmcs.com/">BootWHMCS</a> e <a href="http://www.sabaia.com.br/">Sabaia Networks</a></div>
+        <div class="pull-left text-muted">{$LANG.copyright} &copy; {$date_year} {$companyname}</div>
         {if $langchange}<div id="languagechooser" class="pull-right">{$setlanguage}</div>{/if}
       
       </div>
