@@ -275,12 +275,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="http://www.sabaia.com.br/testes/clientarea.php?action=changepw">
+                                        <a href="clientarea.php?action=changepw">
                                              Alterar Senha
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="http://www.sabaia.com.br/testes/clientarea.php?action=contacts">
+                                        <a href="clientarea.php?action=contacts">
                                             Contatos/Sub-Contatos
                                         </a>
                                     </li>
