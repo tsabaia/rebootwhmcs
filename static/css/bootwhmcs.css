@@ -1,0 +1,150 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-top: 20px;
+  margin-bottom: 80px;
+background-color: #f5f6ff;
+}
+
+.nav-header h1 {
+  display: inline-block;
+  margin-top: 0px;
+}
+
+
+
+.nav-header ul {
+  float: right;
+  margin-top: 17px;
+  border-bottom: none;
+}
+
+.headerSortdesc,
+.headerSortasc {
+  position: relative;
+}
+
+.headerSortdesc:after,
+.headerSortasc:after {
+  top:0;
+  font-family: "FontAwesome";
+  margin-left: 10px;
+  content: "\f077";
+}
+
+.headerSortasc:after {
+  content: "\f078";
+}
+
+#footer {
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#pwstrengthpos, #pwstrengthneg {
+	box-sizing: content-box;
+}
+
+span.password-strength table {
+	text-align: right;
+	border-spacing: 10px 6px;
+	border-collapse: separate;
+}
+
+span.password-strength {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+table.ticketrating {
+  display: table;
+  width: auto;
+  border: 0;
+  border-spacing: 1px; /* 2px ? */
+  border-collapse: separate;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  -moz-box-sizing: border-box;
+  text-indent: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+table.ticketrating td {
+  display: table-cell;
+  min-width: 16px;
+  line-height: 16px;
+  vertical-align: inherit;
+  text-align: inherit;
+  padding: 0;
+  border: 0;
+}
+table.ticketrating td.point {
+    cursor: pointer;
+    cursor: hand;
+}
+table.ticketrating td.star {
+    background: url('../../../images/rating_neg.png');
+    cursor: pointer;
+    cursor: hand;
+}
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
